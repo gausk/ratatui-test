@@ -1,0 +1,15 @@
+[package]
+name = "ratatui-test"
+version = "0.1.0"
+description = "Ratatui testing"
+authors = ["Gaurav Kumar <gauravsingh12341@gmail.com>"]
+license = "MIT"
+edition = "2024"
+
+[dependencies]
+color-eyre = "0.6.3"
+crossterm = { version = "0.29", features = ["event-stream"] }
+ratatui = "0.30.0-alpha.5"
+tokio-stream = "0.1.17"
+tokio = {  version = "1.48.0", features = ["rt-multi-thread", "macros"] }
+octocrab = "0.47.0"
